@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MEdia
+title: Media
 landing-title: 'Media'
 nav-menu: true
 description: Logos, promo images, etc

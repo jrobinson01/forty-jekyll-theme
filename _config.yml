@@ -14,8 +14,9 @@ country: United States of America
 #phone:
 
 # homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+# JR: removed dependency on these
+# tiles-source: pages # accepts "posts" or "pages"
+# tiles-count: 12
 
 # social settings
 500px_url:

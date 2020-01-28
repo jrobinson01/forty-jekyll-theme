@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Events
+title: Calendar
 description: Where you'll find me
-image: assets/images/turntable_3.jpg
+image: assets/images/J5K_banner_youtube_1.png
 nav-menu: true
+show_tile: true
 ---
-Calendar of events here (this is gonna be sparse!)
+

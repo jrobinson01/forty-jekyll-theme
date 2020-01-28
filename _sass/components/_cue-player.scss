@@ -2,3 +2,9 @@
   width: 100%;
   height: 327px;
 }
+/** Smaller screens */
+@include breakpoint(small) {
+  #cue-player {
+   height: 327 * 2px;
+  }
+}

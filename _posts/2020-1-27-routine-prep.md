@@ -3,6 +3,7 @@ layout: post
 title: 'Preparing a mini routine'
 description: null
 image: null
+show_tile: true
 ---
 ### Preparing a routing
 
