@@ -14,22 +14,24 @@
   {% endif %}
   {% endfor %}
   <!-- TODO: some sort of divider here -->
-  <!-- post tiles -->
-  <header class="major tile-divider">
-    <h3>Featured posts</h3>
-  </header>
-  {% for post in site.posts %}
-  {% if post.show_tile == true %}
-  <article>
-    <span class="image">
-      <img src="{{ post.image }}" alt="" />
-    </span>
-    <header class="major">
-      <h3><a href="{{ post.url  | relative_url }}" class="link">{{ post.title }}</a></h3>
-      <p>{{ post.description }}</p>
-      <p>{{ post.date | date: "%m/%d/%Y" }}</p>
+  {% if site.show_featured %}
+    <!-- post tiles -->
+    <header class="major tile-divider">
+      <h3>Featured posts</h3>
     </header>
-  </article>
+    {% for post in site.posts %}
+    {% if post.featured == true %}
+    <article>
+      <span class="image">
+        <img src="{{ post.image }}" alt="" />
+      </span>
+      <header class="major">
+        <h3><a href="{{ post.url  | relative_url }}" class="link">{{ post.title }}</a></h3>
+        <p>{{ post.description }}</p>
+        <p>{{ post.date | date: "%m/%d/%Y" }}</p>
+      </header>
+    </article>
+    {% endif %}
+    {% endfor %}
   {% endif %}
-  {% endfor %}
 </section>

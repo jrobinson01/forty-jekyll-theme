@@ -20,8 +20,9 @@ country: United States of America
 
 # social settings
 500px_url:
-facebook_url:
-instagram_url: https://instagram.com
+youtube_url: https://www.youtube.com/channel/UCng8vRKQJWhLqGkJsldKrmA
+facebook_url: https://www.facebook.com/j5kmusic
+instagram_url: https://instagram.com/djj5k
 twitter_url: https://twitter.com/djj5k
 
 # build settings
@@ -29,3 +30,6 @@ markdown: kramdown
 
 sass:
   style: compressed
+
+excerpt_separator: <!--more-->
+show_featured: false

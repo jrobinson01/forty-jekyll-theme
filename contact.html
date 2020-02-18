@@ -3,30 +3,37 @@ layout: page
 title: Contact
 landing-title: 'Contact'
 nav-menu: true
-description: null
+description: Holla
 image: null
 show_tile: true
 ---
-<h1>Contact me</h1>
-<div class="inner">
-  <section>
-    <form action="https://formspree.io/{{ site.email }}" method="POST">
-      <div class="field half first">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" />
-      </div>
-      <div class="field half">
-        <label for="email">Email</label>
-        <input type="text" name="_replyto" id="email" />
-      </div>
-      <div class="field">
-        <label for="message">Message</label>
-        <textarea name="message" id="message" rows="6"></textarea>
-      </div>
-      <ul class="actions">
-        <li><input type="submit" value="Send Message" class="special" /></li>
-        <li><input type="reset" value="Clear" /></li>
-      </ul>
-    </form>
+<div id="main">
+
+  <section id="one">
+    <div class="inner">
+      <header class="major">
+        <h1>Contact</h1>
+      </header>
+      <p>For general inquires, bookings, or maybe you just have a question, please give me a shout and I'll get right back to you.</p>
+      <form action="https://formspree.io/{{ site.email }}" method="POST">
+        <div class="field half first">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div class="field half">
+          <label for="email">Email</label>
+          <input type="text" name="_replyto" id="email" />
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="6"></textarea>
+        </div>
+        <ul class="actions">
+          <li><input type="submit" value="Send Message" class="special" /></li>
+          <li><input type="reset" value="Clear" /></li>
+        </ul>
+      </form>
+    </div>
   </section>
 </div>
+

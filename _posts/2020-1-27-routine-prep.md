@@ -2,11 +2,12 @@
 layout: post
 title: 'Preparing a mini routine'
 description: null
-image: null
-show_tile: true
+image: assets/images/turntable_3.jpg
+featured: false
 ---
-### Preparing a routing
-
+### Preparing a routine
+Some stuff that shows in the excerpt up here.
+<!--more-->
 You want to make sure that, when you start the routine, that you don't have to waste a bunch of time getting things set properly. When exporting from Ableton you want to:
 
 - get levels perfect so you don't have to adjust gain after loading in your dj software
